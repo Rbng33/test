@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Connexion", href: "./Login", current: false },
-  { name: "S'inscrire", href: "", current: false },
+  { name: "S'inscrire", href: "./Signup", current: false },
   { name: "Rechercher", href: "", current: false },
   { name: "A propos de nous", href: "#", current: false },
 ];
