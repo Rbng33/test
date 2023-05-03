@@ -7,7 +7,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import axios from '../api/axios';
 import FloatingImage from './Functions/FloatingImage'
 import AuthContext from "../context/AuthProvider";
-const LOGIN_URL = '/Login';
+const LOGIN_URL = '/auth';
 
 const Login = () => {
   
